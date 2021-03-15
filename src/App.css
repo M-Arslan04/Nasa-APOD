@@ -65,11 +65,9 @@ p {
   transition: all 0.4s ease-in-out;
 }
 
-.view-first h2 {
+.view-first h1 h4 {
   /* transform: translateY(-100px); */
-  opacity: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  transition: all 0.2s ease-in-out;
+  font-family: "Roboto";
 }
 
 .view-first p {

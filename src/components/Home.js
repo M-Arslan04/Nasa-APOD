@@ -17,7 +17,7 @@ const Home = () => {
 
           }}>
             
-            <Link style={{borderColor:'Highlight' , color:'whitesmoke',  backgroundColor:"#516395",fontFamily:'cursive' }} to="/nasaphoto">Have A Look At The Picture Of The Day!</Link>
+            <Link style={{borderColor:'Highlight' , color:'whitesmoke',  backgroundColor:"#516395",fontFamily:'Roboto' }} to="/nasaphoto">Tap to see The Picture of the Day!</Link>
 
         </div>
      );

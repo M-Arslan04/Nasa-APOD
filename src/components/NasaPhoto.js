@@ -78,8 +78,8 @@ if(!photodata) return <div/>
                 <h1>{photodata.title}</h1>
                 <h4>Dated : {photodata.date}</h4>
                 <p>{photodata.explanation}</p>
-                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive', fontSize:'20'}} >{Credits}</p>
-                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive', fontSize:'20'}} >{Credits2}</p>
+                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'DinPro', fontSize:'20'}} >{Credits}</p>
+                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'DinPro', fontSize:'20'}} >{Credits2}</p>
             </div>
             </div>
 
