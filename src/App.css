@@ -1,0 +1,88 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,300); */
+
+::-moz-selection {
+  background: rgba(78, 78, 78, 0.39);
+}
+::selection {
+  background: rgba(160, 160, 160, 0.2);
+}
+
+/**** Skip to line 36 for the hover code ****/
+.bdiv {
+  /* height:; */
+  width: inherit;
+  background-blend-mode: luminosity;
+}
+body {
+  /* background: linear-gradient(to right, #042e5f, #012a54); */
+  background-size: 100%;
+  /* background- */
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 80px 4em 0;
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #00f;
+}
+h1 {
+  max-width: 49rem;
+  font-size: 3.5em;
+  line-height: 1em;
+  font-weight: 700;
+  margin: 0.25em auto;
+}
+h2 {
+  max-width: 49rem;
+  margin: 1.4em auto;
+}
+p {
+  line-height: 1.5em;
+  margin: 1.4em auto;
+  max-width: 49rem;
+  font-size: 1em;
+  font-weight: 350;
+  padding-right: 20px;
+}
+
+/** Code for hover info **/
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(58, 1, 132, 0.44);
+  transition: all 0.4s ease-in-out;
+}
+
+.view-first:hover img {
+  transform: scale(1.1);
+}
+
+.view-first img {
+  /*1*/
+  transition: all 0.2s linear;
+}
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(58, 1, 132, 0.44);
+  transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+  /* transform: translateY(-100px); */
+  opacity: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+  text-align: left;
+}
+.view-first a.info {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
