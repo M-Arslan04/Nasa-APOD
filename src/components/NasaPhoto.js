@@ -45,6 +45,8 @@ if(!photodata) return <div/>
                 <div className="col-sm-4  view-first d-block">
             <iframe
             title="space-video"
+            width="500px"
+            height="500px"
             src={photodata.url}
             frameBorder='0'
             gesture="media"
