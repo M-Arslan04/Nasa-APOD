@@ -8,20 +8,13 @@
 }
 
 /**** Skip to line 36 for the hover code ****/
-.bdiv {
-  /* height:; */
-  width: inherit;
-  background-blend-mode: luminosity;
-}
+
 body {
   /* background: linear-gradient(to right, #042e5f, #012a54); */
   background-size: 100%;
   /* background- */
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.5em;
-  margin: 80px 4em 0;
-  color: #fff;
 }
 a {
   color: #fff;

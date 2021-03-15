@@ -6,10 +6,8 @@ const NavBar = () => {
         <div  
         className="container"
         style={{
-
-            // alignSelf:'center',
             fontSize:30}}>
-            <Link style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive'}} to='/'>Take Me to Home!</Link>
+            <Link style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive'}} to='/'>Back to Home!</Link>
         
         </div>
      );

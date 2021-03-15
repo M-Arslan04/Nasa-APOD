@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 import NavBar from './Navbar'
 const apikey = process.env.REACT_APP_NASA_KEY;
-console.log("Process env",process.env)
 const NasaPhoto = () => {
     const [photodata, setPhotoData] = useState(null)
+    const Credits = "APOD: Astronomy Picture of the Day"
+    const Credits2 = "By Malik Arslan! "
 
     useEffect(() =>{
 
@@ -16,7 +17,7 @@ const NasaPhoto = () => {
             );
             const data = await res.json();
             setPhotoData(data);
-            console.log("data", data)
+
         }
     }, [])
 
@@ -49,10 +50,10 @@ if(!photodata) return <div/>
             height="350px"
             src={photodata.url}
             frameBorder='0'
-            gesture="media"
             allow="encrypted-media"
             allowFullScreen
             className="photo"
+            style={{padding:"20px"}}
             />
             </div>
             ) 
@@ -77,7 +78,8 @@ if(!photodata) return <div/>
                 <h1>{photodata.title}</h1>
                 <h4>Dated : {photodata.date}</h4>
                 <p>{photodata.explanation}</p>
-                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive', fontSize:'20'}} >By Malik Arslan!</p>
+                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive', fontSize:'20'}} >{Credits}</p>
+                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive', fontSize:'20'}} >{Credits2}</p>
             </div>
             </div>
 
