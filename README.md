@@ -1,3 +1,9 @@
+#About
+Hi,
+This is a NASA APOD(Astronomical Picture/Video of the Day) Application : 
+Developed by using Nasa Api and react js only.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
