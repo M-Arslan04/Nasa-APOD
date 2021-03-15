@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import NavBar from './Navbar'
 const apikey = process.env.REACT_APP_NASA_KEY;
-
+console.log("Process env",process.env)
 const NasaPhoto = () => {
     const [photodata, setPhotoData] = useState(null)
 
@@ -45,8 +45,8 @@ if(!photodata) return <div/>
                 <div className="col-sm-4  view-first d-block">
             <iframe
             title="space-video"
-            width="500px"
-            height="500px"
+            width="350px"
+            height="350px"
             src={photodata.url}
             frameBorder='0'
             gesture="media"
@@ -77,6 +77,7 @@ if(!photodata) return <div/>
                 <h1>{photodata.title}</h1>
                 <h4>Dated : {photodata.date}</h4>
                 <p>{photodata.explanation}</p>
+                <p style={{borderColor:'Highlight' , color:'blue', fontFamily:'cursive', fontSize:'20'}} >By Malik Arslan!</p>
             </div>
             </div>
 
